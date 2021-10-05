@@ -1,0 +1,16 @@
+{
+  "name": "in-mem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "in-mem-working.js",
+  "dependencies": {
+    "hashmap": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./in-mem.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
