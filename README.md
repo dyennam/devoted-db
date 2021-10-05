@@ -57,4 +57,4 @@ Have a version of NODE(=>12) installed.
     end
 
 ## ISSUES:
-    Transactions/Rollback doesnt work as intended, it overwrites the original hashmap on every call.
+    Transactions/Rollback doesn't work as intended. Only one instance of transaction can be ran at a time

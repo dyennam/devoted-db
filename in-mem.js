@@ -53,7 +53,7 @@ class Database {
 
   // Rollback the transaction
   rollback() {
-    if (transactionMap.values()) {
+    if (transactionMap.size) {
       transactionMap.clear();
     } else {
       console.log("Nothing to Rollback");
